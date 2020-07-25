@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title" : "Batman - La Cour des Hiboux",
+        "author" : "Scott Snyder",
+        "description" : "Après une longue période d'absence, Bruce Wayne est de retour sous le masque de Batman, à la poursuite d'un mystérieux tueur en série aux allures de hibou, et dont la prochaine cible n'est autre que. Bruce Wayne.",
+        "image": "https://images2.medimops.eu/product/1e9b3d/M0236577041X-source.jpg"
+    },
+
+    {
+        "id": 2,
+        "title" : "Batman - La Nuit des Hiboux",
+        "author" : "Scott Snyder",
+        "description" : "La Cour des Hiboux prend son envol, et la nuit à venir pourrait bien signer la mort de Gotham City elle-même.",
+        "image": "https://www.amazon.fr/images/I/51nU5ouKzcL.jpg"
+    }, 
+    
+    {
+        "id": 3,
+        "title" : "Batman: Crack the Case",
+        "author" : "Derek Fridolfs",
+        "description" : "In Batman's crime fighting career, there are very few cases he can't solve. But when he needs help, he has one hero to rely on…you!",
+        "image": "https://media.archonia.com/images/samples/14/25/351425_s0.jpg"
+    }
+]
+
