@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {StyleSheet,Text, View, Modal} from 'react-native';
 import {Image, Button} from 'react-native-elements';
 
 const HomeScreen = ({navigation, route}) => {
 
     // const [modalVisible, setModalVisible ] = useState(false);
-    
+
     function navigateToDetails() {
         navigation.reset({
             index: 0,

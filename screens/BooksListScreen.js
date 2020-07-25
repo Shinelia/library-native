@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import {StyleSheet,Text, View, FlatList, TouchableWithoutFeedback, Keyboard} from 'react-native';
+import {StyleSheet, View, FlatList, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import {ListItem, Input, Button} from 'react-native-elements';
-import books from '../datas/books.json';
 import { Octicons } from '@expo/vector-icons'; 
 import { Entypo } from '@expo/vector-icons'; 
 import axios from 'axios';

@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, FlatList, ScrollView } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, ScrollView } from 'react-native';
 import { Image, Card} from 'react-native-elements';
-import { Rating, AirbnbRating } from 'react-native-ratings';
+import {AirbnbRating} from 'react-native-ratings';
 
 
 const BookScreen = ({ navigation, route }) => {
 
+  
   return (
     <ScrollView style={styles.container}>
         <Card 
@@ -18,7 +19,17 @@ const BookScreen = ({ navigation, route }) => {
           style={styles.img}
           source={{ uri: route.params.volumeInfo.imageLinks.thumbnail}}
           transition={true}/>
-          <Text style={styles.description}>{route.params.volumeInfo.description}</Text>     
+          <Text style={styles.description}>{route.params.volumeInfo.description}</Text>  
+
+          <AirbnbRating
+            count={5}
+            reviews={["Terrible", "Bad", "OK", "Very Good", "Jesus"]}
+            defaultRating={3}
+            size={20}
+            reviewColor='#fa4e4e'
+            selectedColor='#fa4e4e'
+          />
+
         </Card>
     </ScrollView>
   );
